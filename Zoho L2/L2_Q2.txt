@@ -1,0 +1,43 @@
+An alphanumeric array of size N will be given as input. The array will contain numbers and alphabets occurring alternatively. Add the numbers and print their sum and also print the alphabets in the order of occurrence.
+
+Note: Avoid using a second array
+
+Input format:
+1 <= N <=100
+
+To get char array input:
+char str[100];
+scanf("%s",str);
+printf("%s",str);
+
+If you are facing any issues in some compilers while getting string input, use
+#include<stdlib.h>
+fflush(stdin);
+before scanf
+
+Output Format:
+Sum of numbers and list of alphabets
+
+Sample Input 1:
+1a2b3c4d10e
+
+Sample Output 1:
+
+20
+abcde
+
+Explanation:
+The numbers in the given input are 1,2,3,4,10. And the alphabets are a,b,c,d,e
+So the sum of numbers is 20
+
+Sample Input 2:
+1e1d1fg11
+
+Sample Output 1:
+
+14
+edfg
+
+Explanation:
+The numbers in the given input are 1,1,1,11. And the alphabets are e,d,f,g
+So the sum of numbers is 14
